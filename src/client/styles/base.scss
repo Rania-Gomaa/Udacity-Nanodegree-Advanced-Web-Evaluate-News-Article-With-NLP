@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("/src/client/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; //expand the img to the full page
+
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#resultsTitle{
+    text-decoration: underline;
+    color: rgb(18, 8, 29);
+    font-weight: bold;
+
+
+}
+
+.container{
+    border: 3px solid purple;
+    color: black;
+    font-weight: bold;
+}
